@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    //自定义加载按钮属性
+    <declare-styleable name="LoadingButton">
+        <attr name="android:text" />
+        <attr name="android:textSize" />
+        <attr name="textColor" format="color|reference" />
+        <attr name="strokeColor" format="color|reference" />
+        <attr name="contentColor" format="color|reference" />
+        <attr name="radius" format="dimension|reference" />
+        <attr name="rectWidth" format="dimension|reference" />
+        <attr name="contentPaddingLR" format="dimension|reference" />
+        <attr name="contentPaddingTB" format="dimension|reference" />
+        <attr name="progressedWidth" format="dimension|reference" />
+        <attr name="backgroundColor" format="color|reference" />
+        <attr name="progressColor" format="color|reference" />
+        <attr name="progressSecond_color" format="color|reference" />
+        <attr name="loadSuccessDrawable" format="reference" />
+        <attr name="loadErrorDrawable" format="reference" />
+        <attr name="loadPauseDrawable" format="reference" />
+
+
+    </declare-styleable>
+</resources>
